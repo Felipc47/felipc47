@@ -53,17 +53,21 @@ li {
     background-color: gray;
 }
 
-@media (min-width:600px){
+@media (max-width:600px){
     header {
-        min-width: 1px;
         width: 98%;
-        height: 70%;
+        height: 300px;
+        justify-content: center;
     }
     nav {
         display: flex;
     }
     ul {
         flex-wrap: wrap;
-        wi
+    }
+    li {
+        background-color: blue;
+        width: 90%;
+
     }
 }
