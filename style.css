@@ -10,16 +10,19 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
+x}
 header {
     border:solid black 2px;
-    height: 15vh;
     width: 98%;
+    min-width: 40px;
+    min-height: 15vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 4rem;
     font-size: 1.6rem;
+    padding: 3rem;
 }
 .primero {
     width: 26rem;
@@ -29,13 +32,13 @@ header {
 ul {
     display: flex;
     justify-content: space-between;
-    width: 20vw;
-    padding-right: 1rem;
-    flex-wrap:wrap;
+    width: 105%;
 }
 li {
     list-style: none;
     height: 1.7rem;
+    padding: 2rem;
+
     
 }
 
@@ -48,4 +51,19 @@ li {
 }
 .link:hover{
     background-color: gray;
+}
+
+@media (min-width:600px){
+    header {
+        min-width: 1px;
+        width: 98%;
+        height: 70%;
+    }
+    nav {
+        display: flex;
+    }
+    ul {
+        flex-wrap: wrap;
+        wi
+    }
 }
