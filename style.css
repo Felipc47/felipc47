@@ -21,15 +21,14 @@ header {
     margin-top: 4rem;
 }
 
-.primero {
-    
 
-}
+
 ul {
     display: flex;
     justify-content: space-between;
     width: 20vw;
     padding-right: 0rem;
+    flex-wrap:wrap;
 }
 li {
     list-style: none;
@@ -39,8 +38,7 @@ li {
 .link {
     text-decoration: none;
     color: black;
-    height: 6rem;
-    width: 5rem;
+    
     display: flex;    
     align-items: center;
     justify-content: center;
