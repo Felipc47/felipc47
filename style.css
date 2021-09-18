@@ -144,7 +144,7 @@ article {
 
 .contenido3 {
     width: 35rem;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(182, 17, 17, 0);
 }
 .img_contenido3{
     width: 24rem;
@@ -168,11 +168,21 @@ article {
     width: 35rem;
     background-color: rgba(0, 0, 0, 0);
 }
-.contenido6 {
-    background-color: rgba(143, 102, 102, 0);
-    width: 55rem;
+.img_contenido5{
+    width: 20rem;
+    height: 23rem;
 }
-
+.contenido6 {
+    background-color: rgba(112, 87, 87, 0);
+    width: 55rem;
+    height: 10rem;
+    font-size: 1.7rem;
+    text-align: justify;
+    color: rgb(175, 175, 175);
+}
+.titulo6{
+    color: white;
+}
 
 
 
@@ -207,6 +217,14 @@ article {
         margin-top: 9rem;
     }
     .contenido4{
+        margin-top: 2rem;
+        border-bottom: solid 1px white;
+        height: 13rem;
+    }
+    .contenido5{
+        margin-top: 22rem;
+    }
+    .contenido6{
         margin-top: 2rem;
         border-bottom: solid 1px white;
         height: 13rem;
