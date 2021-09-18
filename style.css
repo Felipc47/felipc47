@@ -111,10 +111,7 @@ aside {
     margin-top: -1rem;
 }
 
-.calpor {
-    background-color: rgba(0, 0, 0, 0);
-    margin-top: -7rem;
-}
+
 .calculadora{
     text-align: justify;
     line-height: 1.9rem;
@@ -141,7 +138,7 @@ figure{
 }
 img{
     height:18rem;
-    width: 35rem;
+    width: 32rem;
     border-radius: 2%;
 }
 
@@ -151,18 +148,41 @@ article {
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2rem;
+    flex-wrap: wrap;
 }
 
 .contenido3 {
     width: 35rem;
-    background-color: blueviolet;
+    background-color: rgba(0, 0, 0, 0);
+}
+.img_contenido3{
+    width: 24rem;
+    height: 23rem;
+    border-radius: 11rem;
+}
+.calarea{
+    color: white;
+    text-align: center;
 }
 .contenido4 {
-    background-color: brown;
+    background-color: rgba(112, 87, 87, 0);
+    width: 55rem;
+    height: 10rem;
+    font-size: 1.7rem;
+    text-align: justify;
+    color: rgb(175, 175, 175);
+    
+}
+.contenido5 {
+    width: 35rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+.contenido6 {
+    background-color: rgba(143, 102, 102, 0);
     width: 55rem;
 }
-
 
 
 
@@ -183,6 +203,7 @@ article {
    
     .contenido2{
         width: 83%;
+        margin-top: -4rem;
     }
     .calpor{
         margin-top: -7.7rem;
@@ -190,10 +211,17 @@ article {
 
     .contenido1 {
         width: 100%;
+        margin-top: 3.5rem;
     }
     img{
         height:16rem;
         width: 31rem;
         border-radius: 2%;
+    }
+    .contenido3{
+        margin-top: 10rem;
+    }
+    .contenido4{
+        margin-top: 2rem;
     }
 }
