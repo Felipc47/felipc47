@@ -39,11 +39,11 @@ function calcularDescuento () {
     let descuento; 
 
     switch(value2){
-        case "FelipeStore": descuento = 30;
+        case ("FelipeStore", "felipestore"): descuento = 30;
         break;
-        case "Bienvenid@s": descuento = 35;
+        case ("Bienvenid@s", "bienvenid@s"): descuento = 35;
         break;
-        case "EmpiezaHoy": descuento = 50;
+        case ("EmpiezaHoy", "empiezahoy"): descuento = 50;
         break;
         
     }
