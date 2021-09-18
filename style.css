@@ -73,13 +73,14 @@ li {
 main{
     background-color: #292929;
     height: 45vh;
+    
 }
 
 
 .proyectos {
     width: 100%;
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 3.1rem;
     margin-top: 2rem;
     background-color: #292929;
     color: white;
@@ -116,8 +117,8 @@ figure{
     height: 100%;
 }
 img{
-    height:18rem;
-    width: 32rem;
+    height:23rem;
+    width: 20rem;
     border-radius: 2%;
 }
 .calpor {
@@ -132,7 +133,17 @@ img{
     color: rgb(175, 175, 175);
 }
 article {
-    background-color: rgba(0, 0, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.article2{
+    background-color: rgba(13, 13, 204, 0);
     width: 100%;
     height: 100%;
     display: flex;
@@ -147,9 +158,8 @@ article {
     background-color: rgba(182, 17, 17, 0);
 }
 .img_contenido3{
-    width: 24rem;
+    width: 20rem;
     height: 23rem;
-    border-radius: 11rem;
 }
 .calarea{
     color: white;
@@ -166,7 +176,7 @@ article {
 }
 .contenido5 {
     width: 35rem;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(248, 0, 0, 0);
 }
 .img_contenido5{
     width: 20rem;
@@ -184,8 +194,36 @@ article {
     color: white;
 }
 
+.article3{
+    background-color: rgba(226, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -7rem;
+}
+.sobremi{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    text-align: center;
+    font-size: 3.1rem;
+}
+.contenido7{
+    margin-top: 15rem;
+    font-size: 1.7rem;
+    color: rgb(175, 175, 175);
+    background-color: rgba(240, 128, 128, 0);
+    width: 70vw;
 
-
+}
+.parrafomi{
+    margin-top: 5rem;
+    text-align: justify;
+    width: 100%;
+}
 @media (max-width:600px){
   ul{
       width: 100%;
@@ -198,7 +236,9 @@ article {
         height: 25vh;
         font-weight: bold;
     }
-
+    .proyectos {
+        font-size: 2.5rem;
+    }
 
     .contenido1 {
         margin-top: 3.5rem;
@@ -228,5 +268,8 @@ article {
         margin-top: 2rem;
         border-bottom: solid 1px white;
         height: 13rem;
+    }
+    .contenido7 {
+        margin-top: 43rem;
     }
 }
