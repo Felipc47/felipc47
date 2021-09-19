@@ -113,6 +113,7 @@ figure{
     background-color: rgba(255, 0, 0, 0);
     width: 35rem;
     height: 100%;
+
 }
 img{
     width: 32rem;
@@ -125,11 +126,13 @@ img{
 .contenido2 {
     background-color: rgba(112, 87, 87, 0);
     width: 55rem;
-    height: 13rem;
+    height: 15rem;
     font-size: 1.7rem;
     text-align: justify;
     color: rgb(175, 175, 175);
     border-bottom: solid 1px white;
+    border-bottom: white solid 1px;
+
 
 }
 article {
@@ -170,7 +173,7 @@ article {
 .contenido4 {
     background-color: rgba(112, 87, 87, 0);
     width: 55rem;
-    height: 13rem;
+    height: 15rem;
     font-size: 1.7rem;
     text-align: justify;
     color: rgb(175, 175, 175);
