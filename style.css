@@ -338,18 +338,19 @@ footer{
     .contenido2{
         margin-top: 2rem;
         border-bottom: solid 1px white;
-        height: 13rem;
+        height: 17rem;
+        background-color: rgba(0, 255, 255, 0);
     }
     .contenido3{
-        margin-top: 13rem;
+        margin-top: 19rem;
     }
     .contenido4{
         margin-top: 2rem;
         border-bottom: solid 1px white;
-        height: 13rem;
+        height: 20rem;
     }
     .contenido5{
-        margin-top: 25.5rem;
+        margin-top: 37rem;
     }
     .contenido6{
         margin-top: 2rem;
@@ -357,13 +358,13 @@ footer{
         height: 13rem;
     }
     .contenido7 {
-        margin-top: 48rem;
+        margin-top: 60rem;
         width: 100%;
     }
 
 
     footer{
-        margin-top: 130rem;
+        margin-top: 120rem;
         height: 29rem;
         display: flex;
         justify-content: center;
