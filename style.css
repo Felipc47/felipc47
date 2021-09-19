@@ -273,7 +273,7 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(251, 56, 56, 0);
     height: 7rem;
     color: white;
     flex-wrap: wrap;
@@ -360,11 +360,28 @@ footer{
         margin-top: 48rem;
         width: 100%;
     }
-    .contenido8{
-        justify-content: space-between;
+
+
+    footer{
+        margin-top: 130rem;
+        height: 29rem;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
     }
-footer{
-    margin-top: 80rem;
-}
+   .contenido8{
+    display: inline-block;
+    height: 28rem;
+    background-color: rgba(128, 255, 0, 0);
+
+   }
+   .ops {
+       width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        margin-top: 1rem;
+    }
 
 }
