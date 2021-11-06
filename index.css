@@ -1,0 +1,73 @@
+#header {
+    background-color: #000000;
+    font-size: 1.2rem;
+
+}
+
+#header img {
+    width: 80px;
+}
+
+#header a{
+    color: white;
+}
+
+#header a:hover{
+    color: #F0A500 !important;
+
+}
+
+.sobre-mi {
+    color: #F0A500 !important;
+}
+
+#footer {
+    background-color: #000000;
+    color: white;
+    font-size: 1.2rem;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+
+}
+#footer a:hover {
+    color: #F0A500;
+}
+
+div[class^="col-"] {
+    border: 1px solid hite;
+}
+
+#main .carousel-inner img {
+    max-height: 73vh;
+    object-fit: cover;
+    filter: grayscale(80%);
+
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#carousel a {
+    text-decoration: none;
+}
+
+#link {
+    z-index: 1;
+}
