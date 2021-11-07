@@ -8,12 +8,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <title>Juan Felipe Cubillos</title>
    
   </head>
   <body>
     <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+    <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: black;" >
       <div class="container-fluid">
         <a class="navbar-brand" href="#" style="padding-left:1rem;">
           Juan Felipe Cubillos
@@ -25,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item col">
-              <a class="nav-link active sobre-mi" aria-current="page" style="padding-left: 3rem; padding-right: 3rem;" href="#">Sobre mí</a>
+              <a href="#proyectos" class="nav-link active sobre-mi" aria-current="page" style="padding-left: 3rem; padding-right: 3rem;" >Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link contacto" style="padding-left: 3rem; padding-right: 3rem;" href="#">Proyectos</a>
+              <a class="nav-link contacto" style="padding-left: 3rem; padding-right: 3rem;" href="#sobremi">Sobre mí</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link contacto" style="padding-left: 3rem; padding-right: 3rem;" href="#">Contacto</a>
+              <a class="nav-link contacto" style="padding-left: 3rem; padding-right: 3rem;" href="#footer">Contacto</a>
             </li>
           </ul>
         </div>
@@ -69,6 +70,8 @@
         </div>
       </div>
     
+
+
    <!-- Proyectos -->
    <section id="proyectos" class="mt-4 mb-4">
    <div class="container">
@@ -85,21 +88,22 @@
           <div class="card-body">
             <!-- <h5><span class="badge rounded-pill bg-danger">HTML5</span> <span class="badge rounded-pill bg-info text-light">CSS</span> <span class="badge rounded-pill bg-warning text-light">Javascript</span></h5> -->
             <h5 class="card-title">Calculadora de Porcentajes </h5>
-            
+            <br>
             <p class="card-text">Una calculadora capaz de generar descuentos con base en cupones ya suministrados en el codigo. Para este proyecto empleé: HTML5, CSS3 y Javascript.</p>
-            <a href="#" id="btn-portafolio" class="btn btn-secondary">Muestrame</a>
+            <p class="mt-5">
+            <a href="#" id="btn-portafolio" class="btn btn-secondary">Muestrame</a> </p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mt-3 mb-4">
         <div id="spe" class="card" style="border:0">
-          <img src="capture.JPG" class="card-img-top" alt="...">
+          <img src="market.JPG" class="card-img-top" alt="...">
           <div class="card-body">
             <!-- <h5 >  <span class="badge rounded-pill bg-primary">WordPress</span> <span class="badge rounded-pill bg-info text-light">CSS</span> <span class="badge rounded-pill bg-danger">Dokan</span></h5> -->
-            <h5 class="card-title">Marketplace </h5>
+            <h5 class="card-title">Emore </h5>
             
-            <p class="card-text">Marketplace de mayoristas, en el cual los usuarios pueden comprar minimo 6 unidades por cada producto. Este proyecto es desarrollado en Wordpress.</p>
-            
+            <p class="card-text">Emore es un marketplace de mayoristas, en el cual los usuarios pueden comprar minimo 6 unidades por cada producto. Este proyecto es desarrollado en Wordpress, con Dokan y Woocomerce.</p>
+            <br>
             <a href="#" id="btn-portafolio" class="btn btn-secondary">Muestrame</a>
           </div>
         </div>
@@ -108,10 +112,11 @@
         <div id="spe" class="card" style="border:0">
           <img src="1.PNG" class="card-img-top" alt="...">
           <div class="card-body">
-           <!--  <h5><span class="badge rounded-pill bg-danger">HTML5</span> <span class="badge rounded-pill bg-info text-light">CSS</span> <span class="badge rounded-pill bg-warning text-light">Javascript</span></h5> -->
-            <h5 class="card-title">Calculadora de Ára y périmetro </h5>
-            
-            <p class="card-text">Este proyecto es capaz de calcular el área y perimetro de circulos, cuadrados y triangulos. En este caso se emplearon las mismas competencias anteriormente señaladas.</p>
+            <!-- <h5><span class="badge rounded-pill bg-danger">HTML5</span> <span class="badge rounded-pill bg-info text-light">CSS</span> <span class="badge rounded-pill bg-warning text-light">Javascript</span></h5> -->
+            <h5 class="card-title">Calculadora de Área y périmetro </h5>
+            Este proyecto es capaz de calcular el área y perimetro de circulos, cuadrados y triangulos. En este caso empleé, HTML, CSS y Javascript.
+            <br>
+            <br><br> <br><br>
             <a href="#" id="btn-portafolio" class="btn btn-secondary">Muestrame</a>
           </div>
         </div>
@@ -121,24 +126,49 @@
   </div>
 </section>
    <!-- /Proyectos -->
+   <!-- Sobre mí -->
+   <section id="sobremi" class="mt-5">
+    <div class="container-fluid pt-4 pb-4" style="background-color: #334756;">
+      <div class="row">
+        <div class="col">
+          <h2 style="color: #F0A500;" class="text-center">SOBRE MÍ</h2>
+        </div>
+      </div>
+      <div id="sobremi" class="row align-items-center">
+        <div class="col-12 col-md-6 text-center">
+          <img class="rounded-circle" src="io.png" height="600rem" alt="">
+        </div>
+        <div class="col-12 col-md-6 text-justify mt-4 pe-4" style="color: rgb(245, 245, 245);  font-size: 1.2rem;">
+          <p>Soy una persona apasionada por la tecnología, la cultura pop, la música y el aprendizaje constante. Tengo experiencia laboral con diferentes marcas de tecnología como: samsung, sony, panasonic y iRobot; <br>esta experiencia ha sido en el ámbito comercial y principalmente en grandes superficies.
+            <br><br>Cursé seis semestres de psicología en la universidad Javeriana pero cancelé mis estudios y decidí aprender programación ya que descubrí mi vocación entre líneas de codigo y las infinitas posibilidades de la creación de software.
+            <br><br>
+            Actualmente estudio todo lo relacionado al desarrollo web front end de manera autodidacta, apoyandome de la plataforma <span style="color: rgb(65, 223, 65);">Platzi</span> y complementando con los recursos que se encuentran en la web. 
+           
+           <br><br>
+           Al día de hoy poseo conocimientos en las tecnologías de HTML5, CSS3, Javascript, Wordpress, Git, Github y Bootstrap las cuales me permiten plasmar diseños de páginas web estáticas y dinámicas al mayor detalle posible. Sigo formandome activamente.
+           <br><br>Fuera del mundo de internet soy una persona que disfruta de la música y he llevado a cabo proyectos musicales que pueden verse en mi <a style="text-decoration: none; color:red;" href="https://www.youtube.com/watch?v=yni984BBklU" target="_blank">canal.</a> Soy un curioso por naturaleza e intento descubrir un poco más todos los días.
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Sobre mí -->
   </main>
     <!-- /Main -->
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
         <div class="container"> 
-            <div class="row text-center">
-                <div class="col-12 col-md-12 col-lg-5">
+            <div class="row text-center align-items-center">
+                <div class="col-12 col-md-4">
                   Copyright © 2021 Juan Felipe Cubillos
-                </div>
-                <div class="col-12 col-md-12 col-lg-3">
-                  <a href="https://github.com/">Politica de privacidad</a>
-                </div> 
-                <div class="col-12 col-md-12 col-lg-2">
-                  <a href="https://github.com/">Aviso legal</a>
-                </div>    
-                <div class="col-12 col-md-12 col-lg-2">
-                  <a href="https://github.com/">Contacto</a>
                 </div>  
+                <div class="col-12 col-md-2">
+                  <a href="https://github.com/">Hoja de vida</a>
+                </div>
+                <div class="col-12 col-md-2" style="color: white; font-size: 1.2rem;" > <a href="" style="text-decoration: none;">Contacto</a></div>  
+                <div class="col-12 col-md-2"> <img src="logot.png" height="50rem" alt=""> </div>
+                <div class="col-12 col-md-2"><img src="github.png" height="40rem" alt=""> </div>
+                
             </div>
         </div>
     </footer>
