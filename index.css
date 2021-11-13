@@ -95,3 +95,15 @@ div[class^="col-"] {
     z-index: 1;
 }
 
+
+#sobremi .img {
+    object-fit: cover;
+}
+
+#sobremi2 {
+    min-height: 630px;
+    background-image: url(assets/io.png);
+    background-size: auto 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
